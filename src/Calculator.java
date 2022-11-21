@@ -21,9 +21,15 @@ public class Calculator {
                 break;
 
             case 2:
-                int nn1= reader.nextInt();
-                int nn2 = reader.nextInt();
-                System.out.println("The output is "+(nn1-nn2));
+                int s1= reader.nextInt();
+                int s2 = reader.nextInt();
+                System.out.println("The output is "+(s1-s2));
+                break;
+
+            case 3:
+                int m1= reader.nextInt();
+                int m2 = reader.nextInt();
+                System.out.println("THe output is "+(m1*m2));
                 break;
 
         }
