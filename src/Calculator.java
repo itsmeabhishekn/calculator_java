@@ -39,7 +39,16 @@ public class Calculator {
                 System.out.println("Enter the values ");
                 int d1 = reader.nextInt();
                 int d2 = reader.nextInt();
-                System.out.println("The output is "+(d1/d2));
+
+                try
+                {
+                    System.out.println("The output is "+(d1/d2));
+                }
+                catch (ArithmeticException e)
+                {
+                    System.out.println("Divide by zero is not possible ");
+                }
+
                 break;
 
             default:
