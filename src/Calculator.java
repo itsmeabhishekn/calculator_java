@@ -7,7 +7,7 @@ public class Calculator {
         Scanner reader = new Scanner(System.in);
 
         System.out.println(" Menu Driven Calculator \n --------------------  \n" +
-                " Please enter the choice \n" + "1.Addition \n2.Subtraction \n3.Multiplication \n4.Division \n"
+                " Please enter the choice \n" + "1.Addition \n2.Subtraction \n3.Multiplication \n4.Division \n5.Exit"
         );
 
         int ch = reader.nextInt();
@@ -41,6 +41,9 @@ public class Calculator {
                 int d2 = reader.nextInt();
                 System.out.println("The output is "+(d1/d2));
                 break;
+
+            case 5:
+                System.exit(0);
 
             default:
                 System.out.println("please enter a valid number");
