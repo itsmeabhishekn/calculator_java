@@ -17,9 +17,14 @@ public class Calculator {
             case 1:
                 int n1 = reader.nextInt();
                 int n2 = reader.nextInt();
-                System.out.println("the output is " +n1+n2);
+                System.out.println("the output is " +(n1+n2));
                 break;
 
+            case 2:
+                int nn1= reader.nextInt();
+                int nn2 = reader.nextInt();
+                System.out.println("The output is "+(nn1-nn2));
+                break;
 
         }
 
